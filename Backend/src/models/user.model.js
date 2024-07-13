@@ -42,9 +42,9 @@ const userSchema = new Schema(
                 }
             ],
 
-            passwork:{
+            password:{
                 type: String,
-                required:[true, 'passwork is required'],
+                required:[true, 'password is required'],
 
             },
 
